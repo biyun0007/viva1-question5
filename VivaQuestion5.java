@@ -48,7 +48,7 @@ public class VivaQuestion5 {
             
             System.out.print("\nSelect spacecraft type(1-Rocket, 2-Shuttle, 3-Probe): ");
             type=sc.nextInt();
-            sc.nextLine();
+            sc.nextLine();//consume new line
             
             efficiency = distance/fuelUsed;
             
@@ -96,3 +96,4 @@ public class VivaQuestion5 {
     }
     
 }
+
